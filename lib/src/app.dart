@@ -8,10 +8,13 @@ class MyPoraaliApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const ScreenUtilInit(
+    return  ScreenUtilInit(
       minTextAdapt: true,
       splitScreenMode: true,
       child: MaterialApp(
+        theme: ThemeData(
+          fontFamily: "Montserrat",
+        ),
         debugShowCheckedModeBanner: false,
         home: TabsWrapper(),
       ),
