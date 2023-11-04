@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:poraali/src/screens/bookmark_screen.dart';
 import 'package:poraali/src/screens/home_screen.dart';
-import 'package:poraali/src/screens/notes_screen.dart';
+import 'package:poraali/src/screens/login_screen.dart';
 import 'package:poraali/src/screens/profile_screen.dart';
 import 'package:poraali/src/widgets/custom_bottom_bar.dart';
 
@@ -40,7 +40,7 @@ class _TabsWrapperState extends State<TabsWrapper> {
             },
             children: const <Widget>[
               HomeScreen(),
-              NotesScreen(),
+              LoginScreen(),
               BookMarkScreen(),
               ProfileScreen()
             ],
